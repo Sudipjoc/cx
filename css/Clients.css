@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Bubblegum+Sans|Caveat+Brush|Chewy|Lobster+Two');
+
+/* -------------------------------- navbar ------------------------------- */
+body {
+    width: 100%;
+    height: 100%;
+}
+/* html {
+    width: 100%;
+    height: 100%;
+} */
+/*===== NAVIGATION ======*/ 
+.navbar {
+    border: 0;
+    /* background-color:#F5F5F5; */
+    background: rgb(19, 16, 16, 0.9); /* Green background with 30% opacity */
+    z-index: 9999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.logo {
+    display: block;
+    height: auto;
+    width: 52px;
+    padding-top: 5px;
+    margin-right: 15px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px; /* firefox bug fix */
+  width: auto;
+}
+.navbar .nav > li > a {
+  line-height: 40px;
+}
+
+.navbar-header h1 {
+    letter-spacing: 1px;
+    color: #F6BE00 !important;
+    text-transform: lowercase;
+    font-family: 'Lobster Two', cursive;
+}
+.navbar li a, .navbar {
+    color: white !important;
+    font-size: 14px;
+    transition: all 0.6s 0s;
+}
+.navbar-toggle {
+    background-color: transparent !important;
+    border: 0;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: black  !important;
+}
+.main-container{
+    background-color: black;
+}
+.main-container video {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* -----------------------Clients details------------------ */
+.quote h1{
+    font-size: 49px;
+    font-family: 'Lobster Two', sans-serif;
+    font-weight: bold;
+    color:rgb(65, 4, 4);
+    text-align: center;
+    line-height: 1em;
+    letter-spacing: 1px;
+    margin: 15px 0;
+    animation:textanimation 6s ease-in-out;
+}
+.quote p{
+    font-size: 18px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    line-height: 1em;
+    text-align: center;
+    color: black;
+    margin: 15px 0;
+}
+.horizontal-line{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+@keyframes textanimation {
+    0%{
+        letter-spacing: 10px;
+    }
+    100%{
+        letter-spacing: 1px;
+    }
+}
+
+/* ----------------------clients photo ----------------- */
+
+
+.demo{
+   
+    margin: 40px;
+  width: 25%;
+  display: inline-block;
+  box-shadow: 2px 2px 10px black;
+  position: relative;
+  
+  }
+  .image img{
+    width: 100%;
+  
+  }
+  .image:hover {
+    background-color: red;
+    
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+
+  .demo:hover .overlay{
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
