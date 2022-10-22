@@ -68,6 +68,13 @@ body {
 
 
 /* ------------------------------ quotes --------------------------- */
+.image-mosaic{
+    
+    height: auto;
+    margin-right: 22px;
+    margin-left: 22px;
+    
+}
 
 .logo-2 h1{
     font-size: 49px;

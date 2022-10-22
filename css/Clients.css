@@ -104,16 +104,16 @@ body {
 }
 .demo{
    
-    margin: 40px;
-  width: 25%;
-  display: inline-block;
-  box-shadow: 2px 2px 10px black;
-  position: relative;
+margin: 40px;
+width: 25%;
+display: inline-block;
+box-shadow: 2px 2px 10px black;
+position: relative;
   
   
   }
   .image img{
-    width: 100%;
+    width: 100%
   
   }
   .image:hover {
