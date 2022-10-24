@@ -64,8 +64,31 @@ body {
 }
 
 
+/* --------------------button-------------------- */
 
-
+ 
+  
+  
+  .buttonLink {
+    color: #eeeaea;
+    
+  }
+  
+  .verticalButton {
+    padding:0px 0px 0px 0px;
+      width: 250px;
+      height:40px;
+      background:#048affb8;
+      border-radius: 0px 0px 5px 5px;
+      -moz-transform:rotate(90deg);
+      -ms-transform:rotate(90deg);
+      -o-transform:rotate(90deg);
+      -webkit-transform:rotate(90deg);
+      position: fixed;
+      right: -105px;
+    top: 200px;
+    font-style: italic;
+  }
 
 /* ------------------------------ quotes --------------------------- */
 .image-mosaic{
@@ -142,6 +165,7 @@ body {
     gap: 5rem;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     grid-auto-rows: 240px;
+    
   }
   
   .card {

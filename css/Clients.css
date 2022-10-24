@@ -4,7 +4,6 @@
 body {
     width: 100%;
     height: 100%;
-    
 }
 /* html {
     width: 100%;
@@ -52,49 +51,6 @@ body {
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: black  !important;
-}
-.main-container{
-    background-color: black;
-}
-.main-container video {
-    width: 100%;
-    height: auto;
-}
-
-
-
-/* -----------------------Clients details------------------ */
-.quote h1{
-    font-size: 49px;
-    font-family: 'Lobster Two', sans-serif;
-    font-weight: bold;
-    color:red;
-    text-align: center;
-    line-height: 1em;
-    letter-spacing: 1px;
-    margin: 15px 0;
-    animation:textanimation 6s ease-in-out;
-}
-.quote p{
-    font-size: 18px;
-    font-family: Brush Script MT, Brush Script Std, cursive;
-    line-height: 1em;
-    text-align: center;
-    color: black;
-    margin: 15px 0;
-}
-.horizontal-line{
-    width: 100%;
-    height: 150px;
-    background-color: black;
-}
-@keyframes textanimation {
-    0%{
-        letter-spacing: 10px;
-    }
-    100%{
-        letter-spacing: 1px;
-    }
 }
 
 /* ----------------------clients photo ----------------- */
